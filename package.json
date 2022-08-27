@@ -1,0 +1,28 @@
+{
+  "name": "auth_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "starless-server start",
+    "dev": "nodemon node_modules/starless-server",
+    "lint-init": "eslint --init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "nodemon": "^2.0.19",
+    "starless-server": "^1.4.12"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4",
+    "validator": "^13.7.0"
+  }
+}
