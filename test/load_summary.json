@@ -1,0 +1,12 @@
+[
+  {
+    "name": "signin",
+    "min": 0.103,
+    "max": 49.882,
+    "avg": 16.968504000000006,
+    "successCounts": 556,
+    "failCounts": 444,
+    "successPercent": 55.60000000000001,
+    "failPercent": 44.4
+  }
+]

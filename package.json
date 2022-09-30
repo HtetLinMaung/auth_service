@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "starless-server start",
-    "dev": "nodemon node_modules/starless-server",
+    "dev": "nodemon node_modules/starless-server start",
     "lint-init": "eslint --init"
   },
   "keywords": [],
@@ -14,7 +14,7 @@
   "devDependencies": {
     "eslint": "^8.23.0",
     "nodemon": "^2.0.19",
-    "starless-server": "^1.4.12"
+    "starless-server": "^1.8.3"
   },
   "dependencies": {
     "axios": "^0.27.2",

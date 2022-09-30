@@ -1,0 +1,117 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "OpenAPI 3.0",
+    "description": "",
+    "version": "1.0.11"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000"
+    }
+  ],
+  "tags": [
+    {
+      "name": "routes",
+      "description": "Everything about your Routes"
+    }
+  ],
+  "paths": {
+    "/iam/v1/applications": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getiam_v1_applications"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postiam_v1_applications"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putiam_v1_applications"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchiam_v1_applications"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteiam_v1_applications"
+      }
+    },
+    "/iam/v1/auth": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getiam_v1_auth"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postiam_v1_auth"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putiam_v1_auth"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchiam_v1_auth"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteiam_v1_auth"
+      }
+    },
+    "/iam/v1/users": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getiam_v1_users"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postiam_v1_users"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putiam_v1_users"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchiam_v1_users"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteiam_v1_users"
+      }
+    }
+  }
+}
