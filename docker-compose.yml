@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  authservice:
+    image: htetlinmaung/authservice
+    build: .
+    restart: always
+    ports:
+      - "3001:3000"
+    environment:
+      - DATABASE_URL=postgres://postgres:P@ssword@150.95.82.125:5434/authservicedb
+      - JWT_SECRET=secret
+      - JWT_EXPIRES_IN=1d
+      - APP_ID=authservice
+      - ACCESS_KEY=90b1c3a76f5e6f59
+      - OTP_SERVICE=https://mxgw.omnicloudapi.com
+      - ADMIN_USER_ID=admin
+      - ADMIN_PASSWORD=User@123
