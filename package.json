@@ -14,7 +14,7 @@
   "devDependencies": {
     "eslint": "^8.23.0",
     "nodemon": "^2.0.19",
-    "starless-server": "^1.8.3"
+    "starless-server": "^1.11.5"
   },
   "dependencies": {
     "axios": "^0.27.2",

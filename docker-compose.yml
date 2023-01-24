@@ -16,3 +16,5 @@ services:
       - OTP_SERVICE=https://mxgw.omnicloudapi.com
       - ADMIN_USER_ID=admin
       - ADMIN_PASSWORD=User@123
+      - express_handler_mode=native
+      - worker_processes=auto

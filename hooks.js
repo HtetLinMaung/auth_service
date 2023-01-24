@@ -5,8 +5,8 @@ const sequelize = require("./database");
 const Application = require("./models/Application");
 const User = require("./models/User");
 
-exports.beforeServerStart = async () => {
-  console.log("before server start.");
+exports.afterMasterProcessStart = async () => {
+  console.log("after master process start.");
   if (!fs.existsSync("logs")) {
     fs.mkdirSync("logs");
   }
